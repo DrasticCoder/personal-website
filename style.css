@@ -1,0 +1,188 @@
+*{
+    cursor: url(images/cursor.png),auto;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+
+::-moz-selection { 
+    color: #1c2e6d;
+    background: #d1b7da;
+  }
+  
+  ::selection {
+    color: #250861;
+    background: #d1b7da;
+  }
+
+body{
+    background-color: #fcf6ef ;
+}
+
+#homePage{
+    margin-left: 9vw;
+    
+}
+
+.navbarItem{
+    margin: 0 2vw;
+}
+
+#inventory ,#works, #about, #contact{
+    padding:  2em 4em;
+    height: 100%;
+    width: 100%;
+    line-height: 3vw;
+    font-size: 1.5vw;
+}
+
+.navbar-brand img{
+    width: 4vw;
+    height: 4vw;
+}
+
+.bold-txt {
+    font-size: 100px;
+    color: #250861;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+  }
+  
+.bold-txt:hover {
+    -webkit-text-stroke: 2px #250861;
+    letter-spacing: 5px;
+    color: antiquewhite;
+  }
+  
+  h3{
+      color: #8d609e;
+      font-family: 'Bree Serif', serif;
+}
+
+h2{
+      color: #1c2e6d;
+
+  }
+
+.work-header{
+    font-size:2vw;
+    font-weight: bolder;
+}
+
+h1{
+      color: #250861;
+      
+  }
+  .heading{
+      font-size: 5vw;
+      margin-top: 3.5vw;
+    margin-bottom: 4.5vw;
+  }
+
+#homePage div{
+    margin-bottom: 4rem;
+}
+
+#socials{
+    height: 9vw;
+    width: 30vw;
+    background-color: #e0d5e6;
+    margin-top: 3vw;
+    border: 1px solid #d1b7da;
+    border-radius: 20px;
+    font-size: 30px;
+    color: #250861;
+    font-weight: 500;
+    margin-bottom: 10vw;
+    position: relative;
+    white-space: nowrap;
+}
+
+#socials p{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    position: inherit;
+}
+
+
+.socials-img{
+    width: 3vw;
+    margin-left:1.5vw ;
+    margin-bottom: 5px;
+    position:static;
+}
+
+.fa-brands, .fa-solid{
+    color: #1c2e6d;
+}
+
+ul li{
+    color: #1c2e6d;
+}
+
+.socials-img:hover {
+    transform: translateY(-4px);
+    transition:0.3s;
+}
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #d1b7da;
+    padding-top: 0.5vw;
+  }
+  :root {
+    --body-bg-color: #1a1c1d;
+    --text-color: #aaaebc;
+    --red: #e74c3c;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .menu button {
+      border-radius: 6vw;
+      margin-left: 3vw;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+ 
+  
+  .menu a {
+    position: relative;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .menu a svg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .menu a svg path {
+    fill: transparent;
+    stroke-width: 10px;
+    stroke: currentColor;
+    stroke-dasharray: 547.4111328125;
+    stroke-dashoffset: 547.4111328125;
+    transition: stroke-dashoffset 0.5s cubic-bezier(0.29, 0.68, 0.74, 1.02);
+  }
+  
+  .menu a:hover svg path {
+    stroke-dashoffset: 0;
+  }
+  /* Experimental space */
+  
+
+/* #fcf6ef#aa99aa#250861  color combos #1c2e6d*/
